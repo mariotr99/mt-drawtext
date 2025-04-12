@@ -1,6 +1,5 @@
 local showing = false
 
--- Mostrar texto NUI sin opciones de posición
 function DrawTextUI(text)
     if showing then return end
     showing = true
@@ -11,7 +10,6 @@ function DrawTextUI(text)
     SetNuiFocus(false, false)
 end
 
--- Ocultar texto NUI
 function HideTextUI()
     if not showing then return end
     showing = false
@@ -20,7 +18,6 @@ function HideTextUI()
     })
 end
 
--- Exportar funciones
 exports('DrawText', function(text)
     DrawTextUI(text)
 end)

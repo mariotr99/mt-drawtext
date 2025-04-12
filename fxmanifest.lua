@@ -1,8 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'TuNombre'
-description 'NUI DrawText replacement like QBCore'
+author 'mariotr_'
+description 'Drawtext'
 version '1.0.0'
 
 client_script 'client/main.lua'
