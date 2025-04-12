@@ -60,7 +60,8 @@ end)
 exports('DrawText', drawText)
 exports('ChangeText', changeText)
 exports('HideText', hideText)
-exports('KeyPressed', keyPressed)```
+exports('KeyPressed', keyPressed)
+```
 
 
 The letter between the brackets (in this case `E`) will appear in the lower interaction box, while the rest of the text (`Open Bank`) will appear in the main area above. This format should be followed consistently across all exports and translations that use `DrawText`.
