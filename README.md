@@ -60,4 +60,21 @@ end)
 exports('DrawText', drawText)
 exports('ChangeText', changeText)
 exports('HideText', hideText)
-exports('KeyPressed', keyPressed)
+exports('KeyPressed', keyPressed)```
+
+
+The letter between the brackets (in this case `E`) will appear in the lower interaction box, while the rest of the text (`Open Bank`) will appear in the main area above. This format should be followed consistently across all exports and translations that use `DrawText`.
+
+## ⚠️ Notes
+
+- This script requires the `mt-drawtext` resource to be running.
+- Avoid conflicts by ensuring no other systems are drawing 3D text in the same context.
+
+## 📂 Compatibility
+
+- Framework: QBCore  
+- Resource Dependency: mt-drawtext  
+- Server Type: FiveM
+
+Made for easy integration and improved control over 3D text in your roleplay environment.
+
